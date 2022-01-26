@@ -3,7 +3,7 @@ export const data = {
     {
       id: 1,
       name: "Products with long name",
-      image: "../../asset/image/product.jpg",
+      image: "/image/product.jpg",
       originPrice: "45,000",
       promotionPrice: "40,000",
       promotion: 20,
