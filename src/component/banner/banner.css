@@ -1,0 +1,14 @@
+.banner .slide img {
+  min-height: 600px;
+}
+@media only screen and (max-width: 960px) {
+  .banner .slide img {
+    min-height: 460px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner .slide img {
+    min-height: 400px;
+    object-fit: cover;
+  }
+}

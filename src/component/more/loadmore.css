@@ -1,0 +1,10 @@
+.more-button {
+  padding: 10px;
+  color: #c0c0c0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.discount .more-button {
+  color: var(--secondary-txtcolor);
+}
