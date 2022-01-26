@@ -15,7 +15,10 @@ const Product = (props) => {
       <div className="product-col">
         <div className="single-product">
           <div className="product-img">
-            <img src={product.image} alt={product.name} />
+            <img
+              src={`${process.env.PUBLIC_URL}/${product.image}`}
+              alt={product.name}
+            />
             {product.promotion ? (
               <span className="price-dec">{product.promotion}%Off</span>
             ) : (
