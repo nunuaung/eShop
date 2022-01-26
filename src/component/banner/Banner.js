@@ -23,15 +23,12 @@ const Banner = () => {
       <Slider {...settings}>
         <div className="slide slide1">
           <img src={Banner1} alt="banner1" className="pc-banner" />
-          {/* <img src={Banner1} alt="sp-banner1" className="sp-banner" /> */}
         </div>
         <div className="slide slide2">
           <img src={Banner2} alt="banner2" className="pc-banner" />
-          {/* <img src={Banner2} alt="sp-banner2" className="sp-banner" /> */}
         </div>
         <div className="slide slide3">
           <img src={Banner3} alt="banner3" className="pc-banner" />
-          {/* <img src={Banner3} alt="sp-banner3" className="sp-banner" /> */}
         </div>
       </Slider>
     </div>

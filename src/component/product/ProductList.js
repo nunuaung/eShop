@@ -34,15 +34,17 @@ const ProductList = (props) => {
 
   return (
     <>
-      <div class="title-container">
-        <div class="title-wrap">
-          <h1 class={titleIcon ? "section-title titleIcon" : "section-title"}>
+      <div className="title-container">
+        <div className="title-wrap">
+          <h1
+            className={titleIcon ? "section-title titleIcon" : "section-title"}
+          >
             {sectionTitle}
           </h1>
         </div>
         <LoadMore viewMoreProductHandler={viewMoreProductHandler} />
       </div>
-      <div class="product-row">
+      <div className="product-row">
         {rowProducts.map((product) => (
           <Product key={product.id} product={product} />
         ))}

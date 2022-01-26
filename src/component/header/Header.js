@@ -49,9 +49,9 @@ const Header = () => {
 
   return (
     <>
-      <nav class={navbar ? "navbar active" : "navbar"}>
-        <div class="nav-container">
-          <div class="nav-left nav-col">
+      <nav className={navbar ? "navbar active" : "navbar"}>
+        <div className="nav-container">
+          <div className="nav-left nav-col">
             <Search />
           </div>
           <div className={mobileMenu ? "mobileMenu show" : "mobileMenu"}>
@@ -82,32 +82,32 @@ const Header = () => {
               <LanguageSwitch navbar={navbar} />
             </div>
           </div>
-          <div class="nav-center nav-col">
+          <div className="nav-center nav-col">
             <a href="#">
-              <img class="logo" src={Logo} alt="logo" />
+              <img className="logo" src={Logo} alt="logo" />
             </a>
           </div>
-          <div class="nav-right nav-col">
+          <div className="nav-right nav-col">
             <LanguageSwitch navbar={navbar} />
             <div className={navbar ? "icon-wrap changeColor" : "icon-wrap"}>
-              <div class="icon-box">
-                <a href="#" class="single-icon">
+              <div className="icon-box">
+                <a href="#" className="single-icon">
                   <FontAwesomeIcon icon={faListAlt} className="nav-icon" />
-                  <span class="noti-mark">2</span>
+                  <span className="noti-mark">2</span>
                 </a>
               </div>
-              <div class="icon-box">
-                <a href="#" class="single-icon">
+              <div className="icon-box">
+                <a href="#" className="single-icon">
                   <FontAwesomeIcon icon={faShoppingCart} className="nav-icon" />
                 </a>
               </div>
-              <div class="icon-box">
-                <a href="#" class="single-icon">
+              <div className="icon-box">
+                <a href="#" className="single-icon">
                   <FontAwesomeIcon icon={faBell} className="nav-icon" />
                 </a>
               </div>
-              <div class="icon-box">
-                <a href="#" class="single-icon">
+              <div className="icon-box">
+                <a href="#" className="single-icon">
                   <FontAwesomeIcon icon={faUser} className="nav-icon" />
                 </a>
               </div>

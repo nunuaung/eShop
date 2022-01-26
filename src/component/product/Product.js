@@ -12,19 +12,16 @@ const Product = (props) => {
   };
   return (
     <>
-      <div class="product-col">
-        <div class="single-product">
-          <div class="product-img">
-            <img
-              src={window.location.origin + product.image}
-              alt={product.name}
-            />
+      <div className="product-col">
+        <div className="single-product">
+          <div className="product-img">
+            <img src={product.image} alt={product.name} />
             {product.promotion ? (
-              <span class="price-dec">{product.promotion}%Off</span>
+              <span className="price-dec">{product.promotion}%Off</span>
             ) : (
               ""
             )}
-            <div class="wishlist">
+            <div className="wishlist">
               <FontAwesomeIcon
                 icon={faHeart}
                 className={addToCart ? "icon-heart active" : "icon-heart"}
@@ -32,17 +29,17 @@ const Product = (props) => {
               />
             </div>
           </div>
-          <div class="product-content">
-            <h2 class="product-name">{product.name}</h2>
-            <p class="product-price">
+          <div className="product-content">
+            <h2 className="product-name">{product.name}</h2>
+            <p className="product-price">
               {product.promotionPrice
                 ? product.promotionPrice
                 : product.originPrice}
-              <span class="price-unit">Ks</span>
+              <span className="price-unit">Ks</span>
             </p>
-            <p class="normal-price">
+            <p className="normal-price">
               {product.originPrice}
-              <span class="price-unit">&nbsp;Ks</span>
+              <span className="price-unit">&nbsp;Ks</span>
             </p>
           </div>
         </div>

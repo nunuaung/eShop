@@ -33,12 +33,12 @@ const CategoryBrandList = (props) => {
           ))}
         </div>
         <div className="view-more" onClick={viewMoreHandler}>
-          <div class="more-dot">
-            <span class="circle-dot"></span>
-            <span class="circle-dot"></span>
-            <span class="circle-dot"></span>
+          <div className="more-dot">
+            <span className="circle-dot"></span>
+            <span className="circle-dot"></span>
+            <span className="circle-dot"></span>
           </div>
-          <p class="view-btn">View All</p>
+          <p className="view-btn">View All</p>
         </div>
       </div>
     </>

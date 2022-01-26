@@ -9,8 +9,6 @@ import Promotion from "./Promotion";
 import Tablet from "./Tablet";
 
 const Home = (props) => {
-  // const data = props.data;
-  // console.log("data => ", data);
   return (
     <>
       <Banner />

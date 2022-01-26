@@ -3,7 +3,7 @@ export const data = {
     {
       id: 1,
       name: "Products with long name",
-      image: "/image/product.jpg",
+      image: "../../asset/image/product.jpg",
       originPrice: "45,000",
       promotionPrice: "40,000",
       promotion: 20,
@@ -85,7 +85,7 @@ export const data = {
     {
       id: 1,
       name: "category name",
-      image: "/image/category/phone.png",
+      image: "../asset/image/category/phone.png",
     },
     {
       id: 2,

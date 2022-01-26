@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div class="section-wrapper">
-          <div class="footer-top">
-            <div class="container">
-              <div class="footer-wrap">
-                <div class="footer-col">
-                  <h1 class="footer-title">Customer Service</h1>
+        <div className="section-wrapper">
+          <div className="footer-top">
+            <div className="container">
+              <div className="footer-wrap">
+                <div className="footer-col">
+                  <h1 className="footer-title">Customer Service</h1>
                   <ul>
                     <li>
                       <a href="">Terms & Privacy Policy </a>
@@ -20,8 +20,8 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div class="footer-col">
-                  <h1 class="footer-title">Customer Service</h1>
+                <div className="footer-col">
+                  <h1 className="footer-title">Customer Service</h1>
                   <ul>
                     <li>
                       <a href="">Myanmar(Unicode)</a>
@@ -31,8 +31,8 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div class="footer-col">
-                  <h1 class="footer-title">Customer Service</h1>
+                <div className="footer-col">
+                  <h1 className="footer-title">Customer Service</h1>
                   <ul>
                     <li>
                       <a href="">
@@ -49,8 +49,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <div class="container">
+        <div className="footer-bottom">
+          <div className="container">
             <p>
               All rights reserved. Made with all the love in ShopDoora Co., Ltd.
             </p>

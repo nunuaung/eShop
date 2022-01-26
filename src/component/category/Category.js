@@ -3,13 +3,6 @@ import { data } from "../../data";
 import CategoryBrandList from "../categorybrand/CategoryBrandList";
 
 const Category = () => {
-  // const category = props.category;
-  // return (
-  //   <div class="col8-box">
-  //     <img src={window.location.origin + category.image} alt={category.name} />
-  //     <p class="category-name">{category.name}</p>
-  //   </div>
-  // );
   const brands = data.categories;
   return (
     <section className="categories">
