@@ -85,7 +85,7 @@ export const data = {
     {
       id: 1,
       name: "category name",
-      image: "../asset/image/category/phone.png",
+      image: "/image/category/phone.png",
     },
     {
       id: 2,
